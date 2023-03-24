@@ -4,13 +4,7 @@ import Directory from './components/directory/directory.component';
 import {Routes, Route} from 'react-router-dom'
 import Authentication from './routes/authentication/authentication.component';
 
-const Shop =()=>{ 
-  return (
-    <div>
-      <h1>HI shop</h1>
-    </div>
-  )
-}
+import Shop from './routes/shop/shop.component'
 
 const  App= ()=> {
   return(
